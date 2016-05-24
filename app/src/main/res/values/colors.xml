@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_actionbar">#ff606060</color>
+    <color name="white_gradient_start">#e0e0e0</color>
+    <color name="white_gradient_end">#fff</color>
+
+    <color name="black_actionbar">#ff000000</color>
+    <color name="black_gradient_start">#222</color>
+    <color name="black_gradient_end">#555</color>
+
+    <color name="grey_actionbar">#ff333333</color>
+    <color name="grey_gradient_start">#888</color>
+    <color name="grey_gradient_end">#bbb</color>
+
+    <color name="green_actionbar">#ff164016</color>
+    <color name="green_gradient_start">#27714d</color>
+    <color name="green_gradient_end">#8ebc78</color>
+
+    <color name="turquoise_actionbar">#ff207070</color>
+    <color name="turquoise_gradient_start">#21b090</color>
+    <color name="turquoise_gradient_end">#53f0b0</color>
+
+    <color name="blue_actionbar">#ff113340</color>
+    <color name="blue_gradient_start">#1c4260</color>
+    <color name="blue_gradient_end">#5c87b6</color>
+
+    <color name="red_actionbar">#ff501010</color>
+    <color name="red_gradient_start">#70102c</color>
+    <color name="red_gradient_end">#a0604c</color>
+
+    <color name="purple_actionbar">#ff2a102a</color>
+    <color name="purple_gradient_start">#883884</color>
+    <color name="purple_gradient_end">#8878bc</color>
+
+    <color name="yellow_actionbar">#ffffc900</color>
+    <color name="yellow_gradient_start">#f0f000</color>
+    <color name="yellow_gradient_end">#ffff60</color>
+
+    <color name="white_transparent">#55ffffff</color>
+    <color name="white_strong_transparent">#a0ffffff</color>
+    <color name="grey_dark">#303030</color>
+    <color name="grey_dark_translucent">#90000000</color>
+    <color name="grey_middle_translucent">#70000000</color>
+    <color name="grey_middle">#6a6a6a</color>
+    <color name="grey_translucent">#80808080</color>
+    <color name="grey_light_translucent">#40808080</color>
+    <color name="frame_stroke">#e0e0e0</color>
+</resources>

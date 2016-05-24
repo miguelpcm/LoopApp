@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/science_mosaic"
+>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+    />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+        >
+            <LinearLayout
+                android:id="@+id/enterButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+            >
+                <TextView
+                    style="@style/MainScreenText"
+                    android:text="Already have an account?"
+                />
+                <Button
+                    style="@style/MainScreenButton"
+                    android:text="Enter!"
+                />
+                <TextView
+                    style="@style/MainScreenText"
+                    android:text="Join the community"
+                />
+                <Button
+                    style="@style/MainScreenButton"
+                    android:text="Register!"
+                />
+            </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

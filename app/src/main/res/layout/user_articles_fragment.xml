@@ -1,0 +1,63 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:id="@+id/layoutArticles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/layoutBottom"
+    >
+        <RelativeLayout android:id="@+id/layoutTitleArticles" style="@style/InfoFrame">
+            <TextView
+                android:id="@+id/txtTitleArticles"
+                android:text="@string/publications"
+                style="@style/ItalicTitle"
+            />
+            <ImageButton
+                android:id="@+id/imgDropdownArticles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/dropdown"
+                android:visibility="invisible"
+            />
+        </RelativeLayout>
+        <View android:id="@+id/sepArticles" style="@style/HeaderDivider"/>
+        <ListView
+            android:id="@+id/listArticles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/white_transparent"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/sliding_button_selector_back"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey_dark_translucent"
+    >
+        <ImageButton style="@style/BottomButton"
+            android:id="@+id/bInfo"
+            android:src="@drawable/info_icon"
+        />
+        <ImageButton style="@style/BottomButton"
+            android:id="@+id/bPeople"
+            android:src="@drawable/people_icon"
+        />
+        <ImageButton style="@style/BottomButton"
+            android:id="@+id/bArticles"
+            android:src="@drawable/article_icon"
+            android:background="@color/grey_middle_translucent"
+        />
+    </LinearLayout>
+</RelativeLayout>

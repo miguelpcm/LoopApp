@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/loopAPI/AsyncServerRequest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/loopAPI/LoopAuthServices.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/loopAPI/LoopServices.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/loopAPI/SecHTTPClient.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/loopAPI/ServerRequester.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/persistance/Preferences.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/utils/ImgLoaderFactory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/utils/NetworkStatus.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/views/CustomFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/views/FlowLayout.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/airsign/views/SlidingActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/loop/airsign/loop/fragments/PublicationFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/loop/airsign/loop/fragments/SearchFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/loop/airsign/loop/fragments/ThemesFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/loop/airsign/loop/fragments/UserArticlesFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/loop/airsign/loop/fragments/UserContactsFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/loop/airsign/loop/fragments/UserInfoFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/arrow.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_drawer.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/actionbar.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/row_article.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/row_people.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/sliding_pane.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/text_flow.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attr.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

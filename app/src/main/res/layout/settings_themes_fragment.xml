@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/H2Text"
+                android:text="@string/themes_hint"
+            />
+            <Button
+                android:id="@+id/bThWhite"
+                style="@style/ListMenuButton"
+                android:text="@string/th_white"
+                android:drawableLeft="@drawable/brush"
+                />
+            <View android:id="@+id/s0" style="@style/SepWhite"/>
+            <Button
+                android:id="@+id/bThGrey"
+                style="@style/ListMenuButton"
+                android:text="@string/th_grey"
+                android:drawableLeft="@drawable/brush"
+            />
+            <View android:id="@+id/s1" style="@style/SepWhite"/>
+            <Button
+                android:id="@+id/bThBlack"
+                style="@style/ListMenuButton"
+                android:text="@string/th_black"
+                android:drawableLeft="@drawable/brush"
+            />
+            <View android:id="@+id/s2" style="@style/SepWhite"/>
+            <Button
+                android:id="@+id/bThRed"
+                style="@style/ListMenuButton"
+                android:text="@string/th_red"
+                android:drawableLeft="@drawable/brush"
+            />
+            <View android:id="@+id/s3" style="@style/SepWhite"/>
+            <Button
+                android:id="@+id/bThBlue"
+                style="@style/ListMenuButton"
+                android:text="@string/th_blue"
+                android:drawableLeft="@drawable/brush"
+            />
+            <View android:id="@+id/s4" style="@style/SepWhite"/>
+            <Button
+                android:id="@+id/bThGreen"
+                style="@style/ListMenuButton"
+                android:text="@string/th_green"
+                android:drawableLeft="@drawable/brush"
+            />
+            <View android:id="@+id/s5" style="@style/SepWhite"/>
+            <Button
+                android:id="@+id/bThPurple"
+                style="@style/ListMenuButton"
+                android:text="@string/th_purple"
+                android:drawableLeft="@drawable/brush"
+            />
+            <View android:id="@+id/s6" style="@style/SepWhite"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

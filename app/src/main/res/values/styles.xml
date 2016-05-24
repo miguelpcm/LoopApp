@@ -1,0 +1,184 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar.White</item>
+    </style>
+
+    <style name="ActionBar.White" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/TitleText.Light</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="TitleText.Light" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BurguerIcon" parent="@android:style/Widget.ImageButton">
+        <item name="android:src">@drawable/ic_drawer</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="ActionBarText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="Separator" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:background">@color/grey_middle</item>
+    </style>
+
+    <style name="HeaderDivider" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/white_transparent</item>
+    </style>
+
+    <style name="SepWhite" parent="Separator">
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="SepBlack" parent="Separator">
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="SlidingMenuTitleText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+    </style>
+
+    <style name="MainScreenText" parent="SlidingMenuTitleText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">22dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+    </style>
+
+    <style name="MainScreenButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/main_button_selector_back</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SlidingMenuButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@drawable/sliding_button_selector_text</item>
+        <item name="android:background">@drawable/sliding_button_selector_back</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingLeft">36dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:drawableRight">@drawable/arrow</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ListMenuButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_selector_back</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="BottomButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/button_gui_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="H2Text" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="H3Text" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="H4Text" parent="H3Text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="BoldTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ItalicTitle" parent="BoldTitle">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="InfoFrame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="InfoFrameHorizontal" parent="InfoFrame">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>
